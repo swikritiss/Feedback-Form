@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<form method="POST" style="text-align: center;"> {%csrf_token%}
+    {{ form.as_p}}
+    <input type ="submit" value="Send" style=
+                                            "width: 192px;
+                                            height: 67px;
+                                            background-color: #27ad6c;
+                                            font-size: 18px; border-radius: 5px;
+                                            color: white;
+                                            border-color: white;
+                                            border-style: solid;"
+                                            >
+</form>
+{% endblock %}

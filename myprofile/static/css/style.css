@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+body img {
+  width: 10%;
+  position: absolute;
+}
+
+body h1 {
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 48px;
+}
+
+body hr {
+  width: 100%;
+  background-color: black;
+}
+
+body p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 55%;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  padding: 20px;
+}
+
+body h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 36px;
+}
+
+body .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .video iframe {
+  width: 33.33%;
+  height: 100 vh;
+  padding: 0 20px;
+}
+
+body a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding: 20px;
+}
+
+body a button {
+  width: 192px;
+  height: 67px;
+  background-color: #27ad6c;
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+  border: none;
+  color: white;
+  margin: auto;
+  line-height: normal;
+  border-radius: 5px;
+}
+
+body a button:hover {
+  background-color: seagreen;
+  border-color: white;
+  border-style: solid;
+  cursor: pointer;
+}
+
+body footer {
+  width: 100%;
+  padding: 7px;
+  background-color: darkslategrey;
+  color: gainsboro;
+  font-family: cursive;
+  font-size: medium;
+}
+/*# sourceMappingURL=style.css.map */

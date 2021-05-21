@@ -1,0 +1,75 @@
+{% load static %}
+<html>
+    <title>
+        Swikriti Singh
+    </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+    <body>
+        <img src="{%static 'img/ss.png' %}">
+        <h1>
+            Swikriti Singh
+        </h1>
+        
+        <p>
+            Hello !!!!
+            I am Swikriti Singh and I am a pianist. I post different instrumental covers on Youtube along with the tutorials for easy learning of the music.
+            My youtube videos also consist of different vlogs  such as travel and challenges vlogs with friends.
+        </p>
+
+        <hr>
+
+        <h2>Instrumental cover videos</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AMb5V7CCaqw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LS_R4Kp2yyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>        
+        
+        <a href="https://youtube.com/c/SwikritiSingh"><button>Click for more!!!</button></a>
+
+        <hr>
+
+        <h2>Tutorial videos</h2>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uy6RBC9d34Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QGiS2mzcQR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+
+        <a href="https://youtube.com/c/SwikritiSingh"><button>Click for more!!!</button></a>
+
+        <hr>
+
+        <h2>Vlogs</h2>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nDyk9wQEOBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LOmlm7Kb2ws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+
+        <a href="https://youtube.com/c/SwikritiSingh"><button>Click for more!!!</button></a>
+        
+        <hr>
+
+        <h2>Challenge videos</h2>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H3hAYqaUPiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+
+        <a href="https://youtube.com/c/SwikritiSingh"><button>Click for more!!!</button></a>
+
+        <hr>
+
+        <h2>Feedbacks</h2>
+        
+        {% block content%}
+        {% endblock %}
+
+        <footer>
+            <h4>
+                contact: swikritisinghss@gmail.com
+            </h4>
+        </footer>
+    
+    </body>
+</html>
